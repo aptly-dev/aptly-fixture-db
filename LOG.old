@@ -1,0 +1,9 @@
+=============== Mar 4, 2014 (MSK) ===============
+17:22:50.911290 db@open opening
+17:22:50.911506 journal@recovery F·1
+17:22:50.911874 journal@recovery recovering @516
+17:22:50.912737 mem@flush created L0@518 N·50 S·8KiB "E..c,v690082":"x..2,v690070"
+17:22:50.917061 db@janitor F·31 G·0
+17:22:50.917092 db@open done T·5.713643ms
+17:22:51.302057 db@close closing
+17:22:51.302189 db@close done T·128.84us
