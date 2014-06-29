@@ -1,30 +1,23 @@
-=============== Mar 4, 2014 (MSK) ===============
-17:22:51.311506 db@open opening
-17:22:51.311720 journal@recovery F·1
-17:22:51.312073 journal@recovery recovering @519
-17:22:51.312591 mem@flush created L0@521 N·1 S·3KiB "R..c,v690084":"R..c,v690084"
-17:22:51.316273 db@janitor F·32 G·0
-17:22:51.316298 db@open done T·4.706854ms
-17:22:51.317642 table@compaction L0·4 -> L1·6 S·10MiB Q·690085
-17:22:51.436788 table@build created L1@524 N·10728 S·2MiB "E..c,v690082":"x..1,v683958"
-17:22:51.517726 table@build created L1@525 N·12520 S·1MiB "x..1,v683962":"x..1,v675895"
-17:22:51.580285 table@build created L1@526 N·6618 S·2MiB "x..1,v678635":"x..7,v629021"
-17:22:51.636199 table@build created L1@527 N·4087 S·2MiB "x..1,v629025":"x..3,v644457"
-17:22:51.695012 table@build created L1@528 N·4078 S·2MiB "x..3,v644461":"x..1,v659833"
-17:22:51.714922 table@build created L1@529 N·1518 S·764KiB "x..1,v659837":"x..4,v665569"
-17:22:51.717041 table@compaction commited F-4 S-30KiB D·140 T·399.358401ms
-17:22:51.717075 table@compaction L1·1 -> L2·10 S·21MiB Q·690085
-17:22:51.799562 table@build created L2@530 N·11080 S·2MiB "x..9,v409491":"x..5,v601659"
-17:22:51.883657 table@build created L2@531 N·9368 S·2MiB "x..7,v601663":"x..3,v637635"
-17:22:51.964164 table@build created L2@532 N·10453 S·2MiB "x..9,v637639":"x..1,v489397"
-17:22:52.056625 table@build created L2@533 N·11099 S·2MiB "x..1,v489401":"x..1,v565577"
-17:22:52.129785 table@build created L2@534 N·11165 S·2MiB "x..1,v565581":"x..1,v496433"
-17:22:52.202033 table@build created L2@535 N·11199 S·2MiB "x..1,v496437":"x..1,v577309"
-17:22:52.271408 table@build created L2@536 N·11161 S·2MiB "x..1,v577313":"x..3,v341061"
-17:22:52.336724 table@build created L2@537 N·11191 S·2MiB "x..1,v344881":"x..2,v669463"
-17:22:52.394027 table@build created L2@538 N·5057 S·2MiB "x..1,v441349":"x..1,v610437"
-17:22:52.444559 table@build created L2@539 N·4005 S·2MiB "x..4,v610441":"x..1,v625757"
-17:22:52.455483 table@build created L2@540 N·823 S·423KiB "x..2,v625761":"x..7,v629021"
-17:22:52.458045 table@compaction commited F~ S-694KiB D·3679 T·740.938608ms
-17:22:52.582247 db@close closing
-17:22:52.582341 db@close done T·91.338us
+=============== Jun 28, 2014 (MSK) ===============
+01:24:11.827657 db@open opening
+01:24:11.827857 journal@recovery F·1
+01:24:11.828189 journal@recovery recovering @475
+01:24:11.828843 mem@flush created L0@477 N·1 S·2KiB "R..f,v417783":"R..f,v417783"
+01:24:11.829491 db@janitor F·35 G·0
+01:24:11.829508 db@open done T·1.76881ms
+01:24:12.276429 table@compaction L0·2 -> L1·4 S·5MiB Q·417924
+01:24:12.339337 table@build created L1@480 N·3 S·2MiB "E..4,v408626":"E..6,v405600"
+01:24:12.365772 table@build created L1@481 N·3340 S·738KiB "E..d,v417725":"x..5,v405849"
+01:24:12.406303 table@build created L1@482 N·4350 S·953KiB "x..b,v411745":"x..0,v417754"
+01:24:12.460338 table@build created L1@483 N·3944 S·2MiB "x..0,v414193":"x..d,v392168"
+01:24:12.460738 table@build created L1@484 N·6 S·3KiB "x..7,v392172":"x..a,v392192"
+01:24:12.461861 table@compaction commited F-1 S-7KiB D·13 T·185.340609ms
+01:24:12.664499 table@compaction expanding L1+L2 (F·1 S·738KiB)+(F·10 S·20MiB) -> (F·2 S·3MiB)+(F·10 S·20MiB)
+01:24:12.664512 table@compaction L1·2 -> L2·10 S·23MiB Q·418232
+01:24:12.767701 table@build created L2@485 N·6 S·4MiB "E..2,v264924":"E..6,v405600"
+01:24:12.898655 table@build created L2@486 N·25085 S·2MiB "E..d,v417725":"P..f,v188106"
+01:24:12.963766 db@close closing
+01:24:12.966457 table@build exiting
+01:24:12.966481 table@build rollback @485
+01:24:12.966849 table@build rollback @486
+01:24:12.968752 db@close done T·4.981259ms
